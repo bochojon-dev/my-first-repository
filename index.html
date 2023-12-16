@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <!-- <style>
+      form {
+        display: block;
+        margin: 24px auto;
+        text-align: center;
+        max-width: 500px;
+        padding: 40px;
+        background-color: #fff;
+        border-radius: 10px;
+        background: var(--White, #fff);
+        box-shadow: 0px 4px 56px 0px rgba(0, 0, 0, 0.04),
+          0px 12px 16px 0px rgba(0, 0, 0, 0.04);
+      }
+      .forms {
+        display: flex;
+        justify-content: center;
+        gap: 16px;
+      }
+      .form {
+        padding: 0 40px;
+      }
+      .from-content {
+        display: flex;
+        border-radius: 4px;
+        background: var(--01-bab-3, #01bab3);
+      }
+      .from-content a {
+        text-decoration: none;
+        color: var(--ffffff, #fff);
+        text-align: center;
+        font-family: Segoe UI;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+      }
+    </style> -->
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="head-contents">
+          <div class="head-images">
+            <a href="#"><img src="./images/logo (2).svg" alt="logo" /></a>
+          </div>
+          <div class="head-notes">
+            <div class="head-texts">
+              <p>Service</p>
+              <p>About</p>
+              <p>Contacts</p>
+            </div>
+            <div class="head-links">
+              <a href="#"><p>Log in</p></a>
+              <a href="#"><p>Open an account</p></a>
+              <a href="#"><p>en</p></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <main>
+        <div class="container">
+          <div class="hero">
+            <form>
+              <a href="#"><img src="./images/logo (2).svg" alt="logo" /></a>
+              <h1>Welcome to ByTrend!</h1>
+              <div class="request">
+                <p>Already have an account?</p>
+                <a href="#">Log in</a>
+              </div>
+              <div class="forms">
+                <div class="form">
+                  <label for="name">First name</label> <br />
+                  <input
+                    required
+                    type="text"
+                    id="name"
+                    name="name"
+                    placeholder="Alexandr"
+                  />
+                </div>
+                <div class="form1">
+                  <label for="surname">Last name</label> <br />
+                  <input
+                    required
+                    type="text"
+                    id="surname"
+                    name="surname"
+                    placeholder="Your surname"
+                  />
+                </div>
+              </div>
+              <div class="form1 form2">
+                <label for="date">Birth date</label> <br />
+                <input required type="date" id="date" name="date" />
+              </div>
+              <div class="form">
+                <label for="gender">Gender</label> <br />
+                <div class="gender">
+                  <div class="form3">
+                    <input required type="radio" id="male" name="gender" />
+                    <label for="gender">Male</label>
+                  </div>
+                  <div class="form4">
+                    <input required type="radio" id="female" name="gender" />
+                    <label for="gender">Female</label>
+                  </div>
+                </div>
+              </div>
+              <div class="form1 form2">
+                <label for="skype">Skype</label> <br />
+                <input
+                  type="text"
+                  id="skype"
+                  name="skype"
+                  placeholder="Your login Skype"
+                />
+              </div>
+              <div class="form1 form2">
+                <label for="promo">Promo</label> <br />
+                <input
+                  type="text"
+                  id="Promo"
+                  name="promo"
+                  placeholder="Your promo"
+                />
+              </div>
+              <div class="form-content">
+                <button type="submit">Continue</button>
+              </div>
+            </form>
+            <p>©2020 All Rights Reserved. Lorem Technologies, Inc.</p>
+          </div>
+        </div>
+      </main>
+    </header>
+  </body>
+</html>
